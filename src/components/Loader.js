@@ -3,8 +3,7 @@ import HashLoader from "react-spinners/HashLoader";
 import { css } from "@emotion/react";
 
 function Loader() {
-  let [loading, setLoading] = useState(true);
-  let [color, setColor] = useState("#ffffff");
+  let [loading] = useState(true);
   const override = css`
     display: block;
     margin: 0 auto;
